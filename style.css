@@ -4,15 +4,17 @@
 }
 
 .center {
-    float:left;
+    float: none;
     background-color: lightblue;
 }
 
 .right {
-    float: right;
+    float: none;
     background-color: lightcoral;
 }
 
 footer {
    background-color: brown; 
+   color: white;
+   float: inline-end;
 }
