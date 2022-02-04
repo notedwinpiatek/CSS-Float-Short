@@ -1,22 +1,24 @@
 .left {
     float: left;
-    clear:both;
+    clear:none;
     background-color:lightgreen;
 }
 
 .center {
-    /*float: left;*/
-    clear: right;
+    float: right;
+    clear: both;
     background-color: lightblue;
 }
 
 .right {
-    float: right;
+    float: left;
     background-color: lightcoral;
 }
 
 footer {
    background-color: brown; 
    color: white;
-  
+}
+.goras {
+    background-color: lightblue;
 }
