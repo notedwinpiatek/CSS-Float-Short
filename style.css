@@ -1,20 +1,22 @@
 .left {
     float: left;
+    clear:both;
     background-color:lightgreen;
 }
 
 .center {
-    float: none;
+    /*float: left;*/
+    clear: right;
     background-color: lightblue;
 }
 
 .right {
-    float: none;
+    float: right;
     background-color: lightcoral;
 }
 
 footer {
    background-color: brown; 
    color: white;
-   float: inline-end;
+  
 }
